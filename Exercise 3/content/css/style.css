@@ -1,0 +1,87 @@
+.custom-container {
+    max-width: 90% !important;
+}
+
+.row-footer {
+    padding: 3em;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.row-header {
+    padding: 3em;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+
+.navbar-custom {
+    /* background-color: #2b6695!important; */
+    background: linear-gradient(90deg, rgba(255,210,29,1) 6%, rgba(253,229,119,1) 37%, rgba(253,229,119,1) 63%, rgba(255,210,29,1) 92%);
+    font-size: 21px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+}
+
+.background-header-style {
+    background-image: url("../img/slusalki.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.action-padding {
+    position: relative;
+    top: 18rem;
+}
+
+.download-section {
+    padding: 3em;
+    background: linear-gradient(90deg, rgba(255,210,29,1) 6%, rgba(253,229,119,1) 37%, rgba(253,229,119,1) 63%, rgba(255,210,29,1) 92%);
+}
+
+.banner-section {
+    padding: 3em;
+    /* background: linear-gradient(90deg, rgba(255,210,29,1) 6%, rgba(253,229,119,1) 37%, rgba(253,229,119,1) 63%, rgba(255,210,29,1) 92%); */
+    background-color: #fac769;
+}
+
+.para-style {
+    text-align: justify;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(6, 126, 66, 0.952); 
+    border-radius: 10px;
+    background-color: #dbdbdb;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(6, 126, 66, 0.952); 
+    background-color: #747474;
+}
+
+/* ============================================ Animations ============================================= */
+
+.animation1 {
+    background-color: red;
+    position: relative;
+    animation: example1 3s infinite;
+  }
+
+@keyframes example1 {
+    0%   {background-color:#28a745;}  
+    50%  {background-color:yellow;}
+    100% {background-color:red;}
+  } 
